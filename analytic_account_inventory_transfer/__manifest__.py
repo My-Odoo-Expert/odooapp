@@ -6,6 +6,8 @@
     'category': 'Inventory',
     'author': 'OE',
     'website': 'www.oe.odoo.com',
+    'price': 10,
+    'currency': 'USD',
     'license': '',
     'depends': [
         'stock',

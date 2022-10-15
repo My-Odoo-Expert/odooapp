@@ -4,18 +4,28 @@
     'summary': 'To assign analytic account to the operation transfer in inventory',
     'description': 'It will update all the related journal entry of that transfer',
     'category': 'Inventory',
-    'author': 'OE',
-    'website': 'www.oe.odoo.com',
-    'price': 10,
-    'currency': 'USD',
-    'license': '',
+    'price': "6.68",
+    'currency': "USD",
+    'author': 'OE Dev',
+    'website': 'www.oe-dev.odoo.com',
+    'license': 'OPL-1',
     'depends': [
         'stock',
         'analytic'
     ],
     'data': [
+        'security/ir.model.access.csv',
         'views/view_stock_picking_form_inherit.xml',
-        'views/view_analytic_account_inventory_transfer_wizard.xml'
+        'views/view_analytic_account_inventory_transfer_wizard.xml',
+        'data/group_data.xml'
+    ],
+    'images': [
+        'static/description/icon.png',
+        'static/img/step1.png',
+        'static/img/step2.png',
+        'static/img/step3.png',
+        'static/img/step4.png',
+        'static/img/step5.png'
     ],
     'demo': [],
     'installable': True,

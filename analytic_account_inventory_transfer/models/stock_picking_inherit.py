@@ -11,7 +11,7 @@ class StockPickingInherit(models.Model):
                 'name': 'Analytic Account',
                 'type': 'ir.actions.act_window',
                 'res_model': 'analytic.account.inventory.transfer.wizard',
-                'view_id': self.env.ref('analytic_account_inventory_transfer.view_analytic_account_inventory_transfer_wizard').id,
+                'view_id': self.env.ref('oe_analytic_account_inventory_transfer.view_analytic_account_inventory_transfer_wizard').id,
                 'view_mode': 'form',
                 'view_type': 'form',
                 'target': 'new',

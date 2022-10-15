@@ -10,7 +10,7 @@
                  <field name="x_analytic_account_id" attrs="{'invisible':[('x_analytic_account_id', '=', False)]}"/>
              </xpath>
             <xpath expr="//button[@name='button_validate']" position="after">
-                <button attrs="{'invisible': [('state','not in','done')] }" type="object" class="btn btn-primary" name="open_analytic_account_wizard" string="Apply Analytic Account"/>
+                <button groups="oe_analytic_account_inventory_transfer.button_access_analytic_account_operation" attrs="{'invisible': [('state','not in','done')] }" type="object" class="btn btn-primary" name="open_analytic_account_wizard" string="Apply Analytic Account"/>
             </xpath>
         </field>
     </record>

@@ -7,7 +7,7 @@
     'price': "6.68",
     'currency': "USD",
     'author': 'OE Dev',
-    'website': 'www.oe-dev.odoo.com',
+    'website': 'https://oe-dev.odoo.com/',
     'license': 'OPL-1',
     'depends': [
         'stock',

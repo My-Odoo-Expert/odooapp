@@ -4,7 +4,7 @@
     'summary': 'To assign analytic account to the operation transfer in inventory',
     'description': 'It will update all the related journal entry of that transfer',
     'category': 'Inventory',
-    'price': "6.68",
+    'price': "1.68",
     'currency': "USD",
     'author': 'OE Dev',
     'website': 'https://oe-dev.odoo.com/',

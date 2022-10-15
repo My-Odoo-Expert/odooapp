@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_analytic_account_inventory_transfer_wizard" model="ir.ui.view">
+        <field name="name">view.analytic.account.inventory.transfer.wizard</field>
+        <field name="model">analytic.account.inventory.transfer.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Analytic Account Inventory Transfer">
+                <sheet>
+                    <group>
+                        <field name="x_analytic_account_id" required="1"/>
+                        <field name="x_stock_picking_id" required="1"/>
+                    </group>
+                    <footer>
+                        <button name="apply_analytic_account_to_inventory_transfer" string="Apply" type="object" class="btn-primary" data-dismiss="modal"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

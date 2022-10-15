@@ -20,6 +20,7 @@
         'data/group_data.xml'
     ],
     'images': [
+        'static/description/banner.png',
         'static/description/icon.png',
         'static/img/step1.png',
         'static/img/step2.png',

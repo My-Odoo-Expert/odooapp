@@ -11,7 +11,8 @@
     'license': 'OPL-1',
     'depends': [
         'stock',
-        'analytic'
+        'analytic',
+        'account'
     ],
     'data': [
         'security/ir.model.access.csv',
